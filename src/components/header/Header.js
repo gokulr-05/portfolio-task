@@ -72,7 +72,7 @@ const Header = () => {
                 className={` active1  navLink ${
                   activeClass === 4 && "activate"
                 }`}
-                href="#1"
+                href="#contact"
                 onClick={() => {
                   setActiveClass(4);
                 }}

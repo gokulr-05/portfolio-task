@@ -1,7 +1,7 @@
 import "./contact.css";
 let Contact = function () {
   return (
-    <div className="contact-area">
+    <div className="contact-area" id="contact">
       <div className="contact-sec">
         <h1 className="text-center text-primary">Contact</h1>
         <div className="contact-form-container">

@@ -47,11 +47,19 @@
   .contact-sec {
     width: 95%;
   }
+
+  .contact-form-container {
+    width: 80%;
+  }
 }
 
 /* X-Small	None	<576px */
 @media (min-width: 0px) and (max-width: 575px) {
   .contact-sec {
     width: 95%;
+  }
+
+  .contact-form-container {
+    width: 90%;
   }
 }
