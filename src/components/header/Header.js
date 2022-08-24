@@ -28,7 +28,7 @@ const Header = () => {
                   activeClass === 0 && "activate"
                 }`}
                 aria-current="page"
-                href="#1"
+                href="#home"
                 onClick={() => {
                   setActiveClass(0);
                 }}
@@ -39,7 +39,7 @@ const Header = () => {
                 className={` active1  navLink ${
                   activeClass === 1 && "activate"
                 }`}
-                href="#1"
+                href="#about"
                 onClick={() => {
                   setActiveClass(1);
                 }}

@@ -8,7 +8,7 @@ import pic3 from "../../assets/img/pic3.jpg";
 
 const Home = () => {
   return (
-    <div className="home-area">
+    <div className="home-area" id="home">
       <div className="home-sec">
         {/* row 1 */}
         <div className="home-row-1 row w-100">

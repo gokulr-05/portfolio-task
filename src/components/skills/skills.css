@@ -1,0 +1,72 @@
+.skills-area {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.skills-sec {
+  height: 100%;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.skills-bucket {
+  width: 50%;
+  margin: 0px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
+}
+
+.skills-bucket-1 {
+  width: 100%;
+}
+
+.skills-item-container {
+  width: 100%;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 50px 0;
+}
+
+/* media queries  */
+
+/* Extra extra large	xxl	≥1400px */
+@media (min-width: 1400px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Large	lg	≥992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Medium	md	≥768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-sec {
+    width: 90%;
+  }
+}
+
+/* Small	sm	≥576px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-sec {
+    width: 95%;
+  }
+}
+
+/* X-Small	None	<576px */
+@media (min-width: 0px) and (max-width: 575px) {
+  .about-sec {
+    width: 100%;
+  }
+}
