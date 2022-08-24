@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   let [activeClass, setActiveClass] = useState(0);
+
   return (
-    <div className="header-area">
+    <div className="header-area sticky-top">
       <div className="header-sec">
         <nav className="navbar navbar-expand-lg ">
           <a className="navbar-brand h5 m-0" href="#1">
-            Navbar
+            Portfolio
           </a>
           <button
             className="navbar-toggler"

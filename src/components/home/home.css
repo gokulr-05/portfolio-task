@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-area {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.home-sec {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.home-heading {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.home-btn-container {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.home-social-icons {
+  margin-top: 50px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.home-img-container {
+  height: 70%;
+  width: 100%;
+  /* object-fit: contain; */
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* media queries  */
+
+/* Extra extra large	xxl	≥1400px */
+@media (min-width: 1400px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Large	lg	≥992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Medium	md	≥768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-sec {
+    width: 90%;
+  }
+}
+
+/* Small	sm	≥576px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .home-sec {
+    width: 95%;
+  }
+  .home-heading {
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .home-col-2 {
+    margin-top: 50px !important;
+  }
+}
+
+/* X-Small	None	<576px */
+@media (min-width: 0px) and (max-width: 575px) {
+  .home-sec {
+    width: 95%;
+  }
+
+  .home-col-2 {
+    margin-top: 50px !important;
+  }
+
+  .home-heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
