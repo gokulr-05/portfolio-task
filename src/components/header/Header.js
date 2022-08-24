@@ -50,7 +50,7 @@ const Header = () => {
                 className={` active1  navLink ${
                   activeClass === 2 && "activate"
                 }`}
-                href="#1"
+                href="#skills"
                 onClick={() => {
                   setActiveClass(2);
                 }}
@@ -61,7 +61,7 @@ const Header = () => {
                 className={` active1  navLink ${
                   activeClass === 3 && "activate"
                 }`}
-                href="#1"
+                href="#projects"
                 onClick={() => {
                   setActiveClass(3);
                 }}
