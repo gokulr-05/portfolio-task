@@ -14,14 +14,15 @@
   margin: 0px auto;
   border: 2px solid black;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   /* gap: 30px; */
 }
 
 .skills-bucket-1 {
   width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 .skills-item-container {
@@ -33,7 +34,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
-  margin: 50px 0;
+  /* margin: 50px 0; */
 }
 
 /* media queries  */
@@ -48,12 +49,18 @@
 
 /* Large	lg	≥992px */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .skills-bucket {
+    width: 80%;
+  }
 }
 
 /* Medium	md	≥768px */
 @media (min-width: 768px) and (max-width: 991px) {
   .about-sec {
     width: 90%;
+  }
+  .skills-bucket {
+    width: 80%;
   }
 }
 
@@ -62,11 +69,17 @@
   .about-sec {
     width: 95%;
   }
+  .skills-bucket {
+    width: 80%;
+  }
 }
 
 /* X-Small	None	<576px */
 @media (min-width: 0px) and (max-width: 575px) {
   .about-sec {
     width: 100%;
+  }
+  .skills-bucket {
+    width: 80%;
   }
 }

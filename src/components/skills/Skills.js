@@ -10,12 +10,12 @@ const Skills = () => {
         {/* <BsCheckCircleFill /> */}
         {/* <BsCheckCircleFill size="25px" color="green" /> */}
 
-        <div className="skills-bucket">
+        {/* <div className="skills-bucket">
           <div className="skills-bucket-1">
             <div className="skills-item-container">
               <div className="skills-item">
                 <BsCheckCircleFill size="25px" color="green" />
-                <h5 className="m-0">HTML</h5>
+                <h5 className="m-0 text-center">HTML</h5>
               </div>
               <div className="skills-item">
                 <BsCheckCircleFill size="25px" color="green" />
@@ -41,25 +41,36 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* <div className="skills-container row">
-          <div className="skills-col-1 col-md-6 col-12">
-            <div className="skills-item">
+        <div className="skills-bucket">
+          <div className="skills-bucket-1 row g-5 p-4">
+            <div className="skills-item col-md-6">
               <BsCheckCircleFill size="25px" color="green" />
-              <h5 className="m-0">HTML</h5>
+              <h5 className="m-0 text-center">HTML</h5>
             </div>
-            <div className="skills-item">
+            <div className="skills-item col-md-6">
               <BsCheckCircleFill size="25px" color="green" />
-              <h5 className="m-0">CSS</h5>
+              <h5 className="m-0 text-center">CSS</h5>
             </div>
-            <div className="skills-item">
+            <div className="skills-item col-md-6">
               <BsCheckCircleFill size="25px" color="green" />
-              <h5 className="m-0">BOOTSTRAP</h5>
+              <h5 className="m-0 text-center">BOOTSTRAP</h5>
+            </div>
+            <div className="skills-item col-md-6">
+              <BsCheckCircleFill size="25px" color="green" />
+              <h5 className="m-0 text-center">JAVASCRIPT</h5>
+            </div>
+            <div className="skills-item col-md-6">
+              <BsCheckCircleFill size="25px" color="green" />
+              <h5 className="m-0 text-center">REACT JS</h5>
+            </div>
+            <div className="skills-item col-md-6">
+              <BsCheckCircleFill size="25px" color="green" />
+              <h5 className="m-0 text-center">REDUX</h5>
             </div>
           </div>
-          <div className="skills-col-2 col-md-6 col-12"></div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
