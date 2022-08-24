@@ -22,11 +22,11 @@ const Home = () => {
               <p className="home-heading">Web Developer </p>
             </h1>
 
-            <div className="home-btn-container">
+            {/* <div className="home-btn-container">
               <button className="btn btn-primary text-capitalize mt-3 px-4">
                 <strong className="m-0 ">Contact</strong>
               </button>
-            </div>
+            </div> */}
 
             <div className="home-social-icons ">
               <a
