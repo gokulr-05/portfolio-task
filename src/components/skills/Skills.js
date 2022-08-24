@@ -54,11 +54,19 @@ const Skills = () => {
               <h5 className="m-0 text-center">CSS</h5>
             </div>
             <div className="skills-item col-md-6">
-              <BsCheckCircleFill size="25px" color="green" />
+              <BsCheckCircleFill
+                className="check-box"
+                size="25px"
+                color="green"
+              />
               <h5 className="m-0 text-center">BOOTSTRAP</h5>
             </div>
             <div className="skills-item col-md-6">
-              <BsCheckCircleFill size="25px" color="green" />
+              <BsCheckCircleFill
+                className="check-box"
+                size="25px"
+                color="green"
+              />
               <h5 className="m-0 text-center">JAVASCRIPT</h5>
             </div>
             <div className="skills-item col-md-6">
