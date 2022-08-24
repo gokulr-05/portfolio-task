@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact-area {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.contact-sec {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.contact-form-container {
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin: 30px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* media queries  */
+
+/* Extra extra large	xxl	≥1400px */
+@media (min-width: 1400px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Large	lg	≥992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Medium	md	≥768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-sec {
+    width: 90%;
+  }
+}
+
+/* Small	sm	≥576px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact-sec {
+    width: 95%;
+  }
+}
+
+/* X-Small	None	<576px */
+@media (min-width: 0px) and (max-width: 575px) {
+  .contact-sec {
+    width: 95%;
+  }
+}
